@@ -1,0 +1,21 @@
+{
+  "name": "e-commerce-backend",
+  "version": "1.0.0",
+  "description": "a e-commerce backend",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "test": "chai",
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
+  },
+  "author": "Akhtar Tatariya",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.2",
+    "nodemon": "^3.1.0"
+  }
+}
